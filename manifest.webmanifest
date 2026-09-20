@@ -1,0 +1,13 @@
+{
+  "id": "./",
+  "name": "CPC Trainer",
+  "short_name": "CPC Trainer",
+  "description": "Offline CPC/CPT study trainer",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#09101f",
+  "theme_color": "#09101f",
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
