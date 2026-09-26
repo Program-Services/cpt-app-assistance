@@ -1,0 +1,35 @@
+name: Sync official CPC reference files
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 12 * * *"
+  push:
+    paths:
+      - ".github/workflows/sync-official-references.yml"
+      - "tools/sync_official_refs.py"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download current and next official CMS/CDC releases
+        run: python3 tools/sync_official_refs.py
+      - name: Commit refreshed mirror
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add updates
+          if git diff --cached --quiet; then
+            echo "No reference changes."
+          else
+            git commit -m "Refresh official CPC references [skip ci]"
+            git push
+          fi
