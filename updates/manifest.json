@@ -1,0 +1,82 @@
+{
+  "generated_by": "GitHub Actions from CMS/CDC public files",
+  "releases": [
+    {
+      "effective_from": "2026-04-01",
+      "effective_through": "2026-09-30",
+      "files": {
+        "guidelines": {
+          "bytes": 823352,
+          "content_type": "application/pdf",
+          "path": "updates/2026-04/guidelines.pdf",
+          "sha256": "e0322238ea66a44c39ebf0c56705c1e1bd5c362ece27a846d1164ba704bc8988",
+          "source_url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2026-update/ICD-10-CM%20April%201%202026%20Guidelines%20Final.pdf"
+        },
+        "hcpcs": {
+          "bytes": 2499217,
+          "content_type": "application/zip",
+          "path": "updates/2026-04/hcpcs.zip",
+          "sha256": "5591fed257e4d2307c1d2dc9c66abc8e346b1f4c076e9e48559799e2de14b70a",
+          "source_url": "https://www.cms.gov/files/zip/july-2026-alpha-numeric-hcpcs-file.zip"
+        },
+        "icdDesc": {
+          "bytes": 2242530,
+          "content_type": "application/zip",
+          "path": "updates/2026-04/icd-desc.zip",
+          "sha256": "4fd9d8b37f02ab42827c7e7be30595c005b0cc3a6bae7a515e3f4c86b6918688",
+          "source_url": "https://www.cms.gov/files/zip/april-1-2026-code-descriptions-tabular-order.zip"
+        },
+        "icdIndex": {
+          "bytes": 22755010,
+          "content_type": "application/zip",
+          "path": "updates/2026-04/icd-index.zip",
+          "sha256": "c623e47143c156d1427fe7cd2bee7ac1ae6994bdd2196b9ec27d4a3219bcfd48",
+          "source_url": "https://www.cms.gov/files/zip/april-1-2026-code-tables-tabular-index.zip"
+        }
+      },
+      "guide_release": "april-1-2026",
+      "hcpcs_release": "july-2026",
+      "icd_release": "april-1-2026",
+      "id": "2026-04"
+    },
+    {
+      "effective_from": "2026-10-01",
+      "effective_through": "2027-03-31",
+      "files": {
+        "guidelines": {
+          "bytes": 830104,
+          "content_type": "application/pdf",
+          "path": "updates/2026-10/guidelines.pdf",
+          "sha256": "1f0065b609b678e98f85bf047b3b012c6a88ba3222e42be2f2435889e05738ab",
+          "source_url": "https://www.cms.gov/files/document/fy-2027-icd-10-cm-coding-guidelines.pdf"
+        },
+        "hcpcs": {
+          "bytes": 2518755,
+          "content_type": "application/zip",
+          "path": "updates/2026-10/hcpcs.zip",
+          "sha256": "08c2202fa92c1d1fb6f31b808b61c767bc487954f6930b6a0f8d09c89af5992f",
+          "source_url": "https://www.cms.gov/files/zip/october-2026-alpha-numeric-hcpcs-file.zip"
+        },
+        "icdDesc": {
+          "bytes": 2208022,
+          "content_type": "application/zip",
+          "path": "updates/2026-10/icd-desc.zip",
+          "sha256": "91c6c9d1117764ce72375a0f3a5493b1725dafbc1ab283b55799076c9e194965",
+          "source_url": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip"
+        },
+        "icdIndex": {
+          "bytes": 22059093,
+          "content_type": "application/zip",
+          "path": "updates/2026-10/icd-index.zip",
+          "sha256": "37baa476323714be16f95c9b2c96812bf6f3623d9f15188866e584dc529b0298",
+          "source_url": "https://www.cms.gov/files/zip/2027-code-tables-tabular-index.zip"
+        }
+      },
+      "guide_release": "fy-2027",
+      "hcpcs_release": "october-2026",
+      "icd_release": "fy-2027",
+      "id": "2026-10"
+    }
+  ],
+  "schema": 1
+}
